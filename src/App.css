@@ -1,0 +1,41 @@
+body{
+   font-family: 'Roboto', sans-serif;
+}
+@font-face{
+  font-family: rockstart;
+  src: url(./fonts/Rockstar-Regular.otf);
+}
+.title{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.text{
+  font-family: 'Roboto', sans-serif;
+  color: #464646;
+}
+nav{
+  background-color: rgb(146,27,40) !important;
+}
+.nav-item:hover{
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+}
+.navbar-nav li .nav-link{
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;  font-weight: 100;
+  font-stretch: expanded;
+}
+/* .card-body h5{
+  font-family: Rockstart;
+  font-size: 4rem;
+} */
+.navbar-nav li a i{
+font-size: 1.5rem;
+}
+
+.gallery{
+  transition: transform .2s;
+  overflow: hidden;
+}
+.gallery:hover{
+  transform: scale(1.05); 
+}

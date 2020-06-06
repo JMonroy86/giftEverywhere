@@ -5,12 +5,20 @@ body{
   font-family: rockstart;
   src: url(./fonts/Rockstar-Regular.otf);
 }
+.giftEverywhere{
+  font-family: rockstart;
+}
 .title{
   font-family: 'Noto Sans JP', sans-serif;
 }
 .text{
   font-family: 'Roboto', sans-serif;
-  color: #464646;
+}
+.title-red{
+  color: rgb(146,27,40);
+}
+.wellcome-title{
+  font-size: 2rem;
 }
 nav{
   background-color: rgb(146,27,40) !important;
@@ -38,4 +46,9 @@ font-size: 1.5rem;
 }
 .gallery:hover{
   transform: scale(1.05); 
+}
+.footer{
+  background-color: rgb(146,27,40) !important;
+  width: 100%;
+  
 }

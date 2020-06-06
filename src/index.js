@@ -9,11 +9,11 @@ import 'react-modal-video/scss/modal-video.scss';
 import 'jquery';
 import 'popper.js';
 import 'bootstrap';
-import Home from './view/home';
+import Layout from './layout';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Layout />
   </React.StrictMode>,
   document.getElementById('root')
 );
